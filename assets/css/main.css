@@ -201,6 +201,9 @@
 /* ----------------------------------------- */
 
 @media screen and (max-width: 640px) {
+  #skills{
+    height: 1150px !important;
+  }
   #header{
     height: 1290px;
     margin-top: 0px;
@@ -382,7 +385,22 @@
 #skills .box{
   background: rgb(183, 203, 191);
 }
-
+#skills .box-skills {
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#skills .box-skills img{
+  width: 170px;
+  height:170px;
+}
+#skills .box-skills p{
+  font-family: 'Cambria';
+  letter-spacing: 5px;
+  color: #ADA7A7;
+}
 
 /* CREATE SECTION PROJECTS OF PORTFOLIO */
 
